@@ -1,0 +1,17 @@
+body {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header, .footer {
+	display: flex;
+	flex-shrink: 0;
+	
+}
+.titleOfPage, .content, .quote{
+	display: flex;
+	flex: 1;
+}
+
+
