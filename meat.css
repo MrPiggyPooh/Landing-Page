@@ -1,17 +1,123 @@
 body {
 	display:flex;
 	flex-direction: column;
-	align-items: center;
+	margin: 0px;
 }
 
 .header, .footer {
 	display: flex;
 	flex-shrink: 0;
-	
+
 }
-.titleOfPage, .content, .quote{
+
+/*
+.titleOfPage, .content, .quote, .ending{
 	display: flex;
+	flex-direction: column;
 	flex: 1;
 }
+*/
+
+.header ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	gap: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	justify-content: space-around;
+	background-color: #1F2937;
+	color: white;
+	padding-left: 6px;
+	padding-right: 6px;
+}
 
 
+
+.titleOfPage{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1F2937;
+	color: white;
+}
+
+.titleOfPage2{
+	margin-right: 32px;
+	width: 250px;
+	flex-wrap: wrap;
+}
+
+#thisWebsite{
+	font-size: 35px;
+	font-weight: 900;
+	
+}
+
+
+.content{
+/*
+	display: flex;
+	justify-content: center;
+	align-items: center;*/
+	text-align: center;
+	background-color: gray;
+}
+.randomInfo{
+	text-align: center;
+	margin-bottom: 30px;
+	text-size: 30px;
+	font-weight: 900;
+}
+
+.picture1234{
+	display: flex;
+	justify-content: center;
+	gap: 52px;
+}
+
+.items{
+	max-width: 450px;
+}
+
+
+
+.quote{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E7EB;
+	font: 36px;
+	color: #1F2937;
+	background-color: green;
+}
+
+
+.quoteWords{
+	margin: 0px;
+	padding: 0px;
+	background-color: purple;
+		
+}
+
+.bob {
+	text-align: right;
+}
+
+
+
+/* the call to action is going to need flexbox to hold the words and button */
+
+
+button {
+	background-color: blue;
+	color: white;
+	border-radius: 25px;
+}
